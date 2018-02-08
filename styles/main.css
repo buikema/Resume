@@ -1,0 +1,7 @@
+@font-face {
+    font-family: vollkornRegular;
+    src: url('https://fonts.googleapis.com/css?family=Vollkorn');
+}
+body {
+    font-family: vollkornRegular, Georgia, 'Times New Roman', Times, serif;
+}
