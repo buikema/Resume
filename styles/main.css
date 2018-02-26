@@ -1,7 +1,5 @@
-@font-face {
-    font-family: vollkornRegular;
-    src: url('https://fonts.googleapis.com/css?family=Vollkorn');
-}
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee:400,800');
+
 body {
-    font-family: vollkornRegular, Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Mukta Mahee', 'Roboto', Helvetica,  Arial, sans-serif;
 }
