@@ -2,21 +2,47 @@
 
 body {
     font-family: 'Mukta Mahee', 'Roboto', Helvetica,  Arial, sans-serif;
+    color: rgb(17, 17, 17);
 }
 
-
 .container {
-    display:grid;
-    margin: 0 4em;
+    display: grid;
+    grid-template-columns: 20em auto 4em;
+    grid-template-rows: 12em auto;
+    padding: 0 4em;
+    background-color: rgb(241, 241, 241);
+}
+
+header {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+.objective {
+    grid-column: 1 / 4;
+}
+.expertise {
+    grid-column: 1 / 2;
+}
+.experience {
+    grid-column: 2 / 4;
+}
+.academics {
+    grid-column: 2 / 4;
+}
+.notes {
+    grid-column: 1 / 4;
 }
 
 ul.header {
     list-style: none;
-    
 }
 ul.header li {
     display: inline;
     padding: 0 1em;
+}
+ul.header a {
+    text-decoration: none;
+    color: rgb(104, 104, 104);
 }
 
 p, li {
@@ -30,3 +56,4 @@ div.notes {
     padding: 0 2em;
     background-color: rgba(255, 94, 0, 0.5);
 }
+
